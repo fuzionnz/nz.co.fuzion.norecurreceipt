@@ -23,5 +23,9 @@
   <comments>This is intended to sort out over-receipting problem. Authorize.net will still send receipts for the first and last without regards to this setting. Other receipts are quashed</comments>
   <civix>
     <namespace>CRM/Norecurreceipt</namespace>
+    <format>23.02.1</format>
   </civix>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
 </extension>
